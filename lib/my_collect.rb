@@ -4,6 +4,6 @@ new_ary = []
       new_ary << yield(elem)
     end
     new_ary
-  end
 end
+
 
