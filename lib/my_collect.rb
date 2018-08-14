@@ -1,6 +1,6 @@
 def my_collect(collection)
   result = []
-    each do |element|
+    collection.each do |element|
       result << block.call(element)
     end
     result
