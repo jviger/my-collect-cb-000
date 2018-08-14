@@ -1,8 +1,9 @@
 def my_collect(collection)
-  result = []
-    collection.each do |element|
-      result << collection.caller(element)
+new_ary = []
+    self.each do |elem|
+      new_ary << yield(elem)
     end
-    result
+    new_ary
+  end
 end
 
