@@ -1,4 +1,4 @@
-def my_collect(collection)
+def my_collect
 new_ary = []
     self.each do |elem|
       new_ary << yield(elem)
